@@ -1,0 +1,39 @@
+<div class="container" style="margin-bottom: 5rem;">  
+			<h2 class="heading-instruileinfo">Do you want to join?</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/admission.jpg" style="height: 700px;width: 500px;">
+				</div>
+				<div class="col-md-6">
+					<form >
+						<div class="mb-3">
+						  <label for="exampleInputEmail1" class="form-label">Full name</label>
+						  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						  <div id="emailHelp" class="form-text">Enter as per your Certificates.</div>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text">Enter your active Gmail.</div>
+						  </div>
+						  <div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Description</label>
+							<input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text">Enter your latest certificate marks(SSC/Inter).</div>
+						  </div>
+						<div class="mb-3">
+						  <label for="exampleInputPassword1" class="form-label">Your conact</label>
+						  <input type="password" class="form-control" id="exampleInputPassword1">
+						  <div id="emailHelp" class="form-text">Enter your active phone number.</div>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputPassword1" class="form-label">Description</label>
+							<textarea id="w3review" name="w3review" rows="5" cols="65"></textarea>							
+							<div id="emailHelp" class="form-text">Discribe about your self .</div>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+				 	</form>
+
+				</div>
+			</div>
+	</div>

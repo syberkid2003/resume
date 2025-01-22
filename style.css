@@ -1,0 +1,17 @@
+td{
+    text-align: center;
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+}
+.top{
+    background-color: gray;
+
+}
+.right{
+    background-color: orange;
+    border-right: black solid 1px;
+}
+.numbers{
+    background-color:gainsboro;
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>calculater</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div style="height: 80vh; width: 34vw; ;margin: 10vh 33vw 10vh 33vw; border: solid black 1px; overflow: hidden">
+        <input id="ans" style="height: 19%; width: 100%;  font-size: xx-large; ">
+        <table  style="height: 80%; width: 100%; ">
+
+            <tr class="top" >
+                <td onclick="empty()">Ac</td>
+                <td onclick="lempty()"><=</td>
+                <td onclick="number('%')">%</td>
+                <td class="right" onclick="number('/')">/</td>
+            </tr>
+            <tr class="numbers" >
+                <td onclick="number(7)">7</td>
+                <td onclick="number(8)">8</td>
+                <td onclick="number(9)">9</td>
+                <td class="right" onclick="number('*')">X</td>
+            </tr>
+            <tr class="numbers">
+                <td onclick="number(4)">4</td>
+                <td onclick="number(5)">5</td>
+                <td onclick="number(6)">6</td>
+                <td onclick="number('-')" class="right">-</td>
+            </tr>
+            <tr class="numbers">
+                <td onclick="number(1)">1</td>
+                <td onclick="number(2)">2</td>
+                <td onclick="number(3)">3</td>
+                <td class="right" onclick="number('+')">+</td>
+            </tr>
+            <tr class="numbers">
+                <td colspan="2" onclick="number(0)">0</td>
+                <td onclick="number('.')">.</td>
+                <td class="right" onclick="answer()">=</td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
